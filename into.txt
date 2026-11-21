@@ -1,0 +1,49 @@
+
+/// DAY 01///
+
+
+features of python
+ 
+
+high level object oriented programm
+
+easy to learn
+object oriented
+dynamic typed
+interpreted
+cross platform
+free and open source
+extensible library support
+extensible
+
+///Data types///
+
+int
+float
+string
+bool
+complex
+
+///keywords///
+
+words reserverd for specific use
+
+///identifiers///
+
+names given to programming elements
+
+///rules///
+
+spacing
+no special char in names
+no keywords as variable names
+case sensitive
+underscore for variable names in case of spacing
+
+loops are used to execute repeated execution of a set of statements
+for and while are loops 
+
+loops need
+1. initilization
+2. condition
+3. update
