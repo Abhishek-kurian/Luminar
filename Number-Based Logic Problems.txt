@@ -1,0 +1,85 @@
+Number-Based Logic Problems
+
+1. Armstrong Number
+   A number that is equal to the sum of cubes of its digits.
+   Example: 153
+   1³ + 5³ + 3³ = 1 + 125 + 27 = 153
+   So, 153 is an Armstrong number.
+   If not equal, print Not an Armstrong number.
+
+---
+
+2. Harshad (Niven) Number
+   A number that is divisible by the sum of its digits.
+   Example: 18
+   (1 + 8) = 9
+   18 ÷ 9 = 2 (no remainder)
+   So, 18 is a Harshad number.
+   If not divisible, print Not a Harshad number.
+
+
+---
+
+3. Perfect Number
+   A number whose sum of proper divisors (excluding itself) equals the number.
+   Example: 6
+   Divisors: 1, 2, 3
+   1 + 2 + 3 = 6
+   So, 6 is a Perfect number.
+   If not equal, print Not a Perfect number.
+
+
+4. Strong Number
+   A number whose sum of factorials of digits equals the number.
+   Example: 145
+   1! + 4! + 5! = 1 + 24 + 120 = 145
+   So, 145 is a Strong number.
+   If not equal, print Not a Strong number.
+
+---
+
+5. Automorphic Number
+   A number whose square ends with the same number.
+   Example: 25
+   25² = 625 → ends with 25
+   So, 25 is an Automorphic number.
+   If not ending with same digits, print Not an Automorphic number.
+
+---
+
+6. Neon Number
+   A number where the sum of digits of its square equals the number itself.
+   Example: 9
+   9² = 81
+   8 + 1 = 9
+   So, 9 is a Neon number.
+   If not equal, print Not a Neon number.
+
+---
+
+7. Spy Number
+   A number where the sum of digits equals the product of digits.
+   Example: 1124
+   Sum = 1 + 1 + 2 + 4 = 8
+   Product = 1 × 1 × 2 × 4 = 8
+   So, 1124 is a Spy number.
+   If not equal, print Not a Spy number.
+
+---
+
+8. Disarium Number
+   The sum of digits raised to the power of their position equals the number.
+   Example: 135
+   1¹ + 3² + 5³ = 1 + 9 + 125 = 135
+   So, 135 is a Disarium number.
+   If not equal, print Not a Disarium number.
+
+---
+
+9. Duck Number
+   A number that contains zero(s) but does not start with zero.
+   Example:
+   1203 → contains 0 (Valid)
+   0123 → starts with 0 (Invalid)
+   So, 1203 is a Duck number.
+   If no zero or starts with 0, print Not a Duck number.
